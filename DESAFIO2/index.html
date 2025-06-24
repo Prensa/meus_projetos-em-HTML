@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>desafio2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <a class="hlinks">Products</a>
+        <a class="hlinks">Company</a>
+        <a class="hlinks">Blog</a>
+        <a class="hlinks">Login</a>
+        <button id="button_link">Sign up</button>
+
+    </header>
+    <main>
+        <img src="./(Positive) Congratulation You get 40 point for your ride.png" alt="img_persson" id="img1">
+        <div>
+            <h1>Wide coverage location</h1>
+            <p>Shared rides, There’s lots to do in your city, and we’ve got the rides to help you enjoy it all. And
+                they’re
+                all available right from your app.</p>
+            <button id="button_lm">Learn more</button>
+        </div>
+    </main>
+
+</body>
+<style>
+    * {
+        font-family: "Public Sans", sans-serif;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .hlinks {
+        font-size: 20px;
+        color: blue;
+        margin-right: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    #button_link {
+        background-color: forestgreen;
+        height: 30px;
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 30px;
+        border-radius: 20px;
+        border: none;
+        font-size: 20px;
+        color: aliceblue;
+        cursor: pointer;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    }
+
+    div {
+        display: inline-block;
+    }
+
+    #img1 {
+        display: inline-block;
+        height: 400px;
+        width: 495px;
+        margin-top: 150px;
+        margin-left: 200px;
+    }
+
+    main {
+        display: flex;
+        padding-top: 0px;
+    }
+
+    h1 {
+        color: blueviolet;
+        font-size: 60px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 150px;
+    }
+
+    p {
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 30px;
+
+        color: brown;
+    }
+
+    #button_lm {
+        background: none;
+        border: none;
+        color: green;
+        cursor: all-scroll;
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-right: 100px;
+        font-size: 25px;
+    }
+
+    @media (max-width: 1060px) {
+        .hlinks {
+            display: inline;
+            font-size: 15px;
+            color: blue;
+            margin-right: 30px;
+            margin-left: 15px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        #button_link {
+            background-color: forestgreen;
+            height: 24px;
+            width: 80px;
+            margin-top: 20px;
+            margin-left: 30px;
+            border-radius: 20px;
+            border: none;
+            font-size: 20px;
+            color: aliceblue;
+            cursor: pointer;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+        }
+
+        div {
+            display: block;
+
+        }
+
+        #img1 {
+
+            height: 340px;
+            width: 280px;
+            margin-top: 50px;
+            margin-left: 0px;
+        }
+
+        main {
+            align-items: center;
+            justify-items: center;
+            display: block;
+        }
+
+        h1 {
+            color: blueviolet;
+            font-size: 50px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 60px;
+        }
+
+        p {
+            margin-left: 100px;
+            margin-right: 100px;
+            font-size: 20px;
+
+            color: brown;
+        }
+
+        #button_lm {
+            background: none;
+            border: none;
+            color: green;
+            cursor: pointer;
+            margin-left: 100px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-right: 100px;
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .hlinks {
+            display: inline;
+            font-size: 15px;
+            color: blue;
+            margin-right: 30px;
+            margin-left: 15px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        #button_link {
+            background-color: forestgreen;
+            height: 24px;
+            width: 80px;
+            margin-top: 20px;
+            margin-left: 30px;
+            border-radius: 20px;
+            border: none;
+            font-size: 20px;
+            color: aliceblue;
+            cursor: pointer;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+        }
+
+        div {
+            display: block;
+
+        }
+
+        #img1 {
+
+            height: 340px;
+            width: 280px;
+            margin-top: 50px;
+            margin-left: 0px;
+        }
+
+        main {
+            align-items: center;
+            justify-items: center;
+            display: block;
+        }
+
+        h1 {
+            color: blueviolet;
+            font-size: 50px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 60px;
+        }
+
+        p {
+            margin-left: 100px;
+            margin-right: 100px;
+            font-size: 20px;
+
+            color: brown;
+        }
+
+        #button_lm {
+            background: none;
+            border: none;
+            color: green;
+            cursor: pointer;
+            margin-left: 100px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-right: 100px;
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .hlinks {
+            display: inline;
+            font-size: 15px;
+            color: blue;
+            margin-right: 30px;
+            margin-left: 15px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        #button_link {
+            background-color: forestgreen;
+            height: 24px;
+            width: 80px;
+            margin-top: 20px;
+            margin-left: 30px;
+            border-radius: 20px;
+            border: none;
+            font-size: 20px;
+            color: aliceblue;
+            cursor: pointer;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+        }
+
+        div {
+            display: block;
+
+        }
+
+        #img1 {
+
+            height: 340px;
+            width: 280px;
+            margin-top: 50px;
+            margin-left: 150px;
+        }
+
+        main {
+            align-items: center;
+            display: block;
+        }
+
+        h1 {
+            color: blueviolet;
+            font-size: 50px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 40px;
+        }
+
+        p {
+            margin-left: 100px;
+            margin-right: 100px;
+            font-size: 20px;
+
+            color: brown;
+        }
+
+        #button_lm {
+            background: none;
+            border: none;
+            color: green;
+            cursor: pointer;
+            margin-left: 100px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-right: 100px;
+            font-size: 25px;
+        }
+
+    }
+
+    @media (max-width: 520px) {
+        .hlinks {
+            display: inline;
+            font-size: 15px;
+            color: blue;
+            margin-right: 30px;
+            margin-left: 10px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+
+        #button_link {
+            background-color: forestgreen;
+            height: 24px;
+            width: 50px;
+            margin-top: 20px;
+            margin-left: 10px;
+            border-radius: 20px;
+            border: none;
+            font-size: 10px;
+            color: aliceblue;
+            cursor: pointer;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+        }
+
+        div {
+            display: block;
+
+        }
+
+        #img1 {
+
+            height: 340px;
+            width: 280px;
+            margin-top: 30px;
+            margin-left: 30px;
+            justify-items: center;
+        }
+
+        main {
+            align-items: center;
+            display: block;
+            justify-items: center;
+        }
+
+        h1 {
+            color: blueviolet;
+            font-size: 30px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 20px;
+        }
+
+        p {
+            margin-left: 100px;
+            margin-right: 100px;
+            font-size: 15px;
+            color: brown;
+        }
+
+        #button_lm {
+            background: none;
+            border: none;
+            color: green;
+            cursor: pointer;
+            margin-left: 100px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-right: 100px;
+            font-size: 25px;
+        }
+    }
+</style>
+
+</html>

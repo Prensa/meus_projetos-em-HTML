@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    
+    top: 0;
+    height: 90px;
+    position: fixed;
+    background-color: black;
+    border: 5px;
+    border-color: 10px solid gold;
+    width: 100%;
+}
+#h_logo {
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#name {
+    font-family: "Waterfall", cursive;
+    font-size: 30px;
+    position: relative;
+    bottom: 25px;
+    color: gold;
+}
+.link_header {
+    font-size: 18px;
+    position: relative;
+    bottom: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+    color: gold;
+}
+#login {
+    font-size: 18px;
+    position: relative;
+    bottom: 25px;
+    margin-left: 250px;
+    cursor: pointer;
+}
+#button_contratar {
+    background-color: black;
+    color: gold;
+    border-radius: 6px;
+    width: 120px;
+    height: 30px;
+    position: relative;
+    bottom: 25px;
+    margin-left: 30px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+#insta {
+    height: 48px;
+    margin-left: 180px;
+    margin-bottom: 16px;
+}
+#zap {
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+main {
+    margin-top: 95PX;
+}

@@ -1,0 +1,56 @@
+* {
+    font-family: "Alfa Slab One", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 10px;
+}
+
+.imgheader {
+    height: 50px;
+}
+
+#img1 {
+    margin-right: 50px;
+    margin-left: 20px;
+    
+}
+
+#img2 {
+    margin-left: 50px;
+}
+
+.fontheader {
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+
+
+}
+
+#btnheader {
+    background-color: yellow;
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 12px;
+    color: darkgreen;
+    margin-right: 0px;
+    margin-left: 550px;
+    cursor: pointer;
+    filter: drop-shadow( 0px 4px 4px rgba(0, 0, 0, 0.5));
+
+}
+#img-logo-gk {
+    margin-left: 500px;
+}
+
+h1 {
+    color: green;
+    background-color: yellow;
+    text-align: center;
+}
