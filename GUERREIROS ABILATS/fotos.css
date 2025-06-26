@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ethnocentric;
+}
+h1 {
+    color: red;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+#p2 {
+    color: red;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+h2{
+    margin-left: 10px;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: line;
+    margin-top: 20px;
+}
+.gallery {
+    border: 5px solid red;
+    margin: 5px;
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    margin-top: 50px;
+}
