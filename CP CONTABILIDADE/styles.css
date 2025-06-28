@@ -4,39 +4,41 @@
     box-sizing: border-box;
 }
 header {
-    
-    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     height: 90px;
     position: fixed;
     background-color: black;
-    border: 5px;
+    border: 3px solid gold;
     border-color: 10px solid gold;
     width: 100%;
+    top: 0;
 }
 #h_logo {
     width: 70px;
-    margin-top: 10px;
-    margin-left: 30px;
 }
 #name {
     font-family: "Waterfall", cursive;
     font-size: 30px;
     position: relative;
-    bottom: 25px;
     color: gold;
+}
+#slogan {
+    color: gold;
+    font-size: 20px;
+    position: relative;
 }
 .link_header {
     font-size: 18px;
     position: relative;
-    bottom: 25px;
-    margin-left: 50px;
     cursor: pointer;
     color: gold;
 }
 #login {
     font-size: 18px;
     position: relative;
-    bottom: 25px;
     margin-left: 250px;
     cursor: pointer;
 }
@@ -47,21 +49,27 @@ header {
     width: 120px;
     height: 30px;
     position: relative;
-    bottom: 25px;
-    margin-left: 30px;
     font-family:'Times New Roman', Times, serif;
     cursor: pointer;
 }
 #insta {
     height: 48px;
-    margin-left: 180px;
-    margin-bottom: 16px;
+    align-self: flex-end;
 }
 #zap {
     height: 60px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    align-self: flex-end;
 }
 main {
     margin-top: 95PX;
 }
+footer {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
