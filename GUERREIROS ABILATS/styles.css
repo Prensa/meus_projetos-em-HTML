@@ -25,6 +25,7 @@ nav {
     align-items: center;
     width: 100%;
     height: 100PX;
+    background-color: black;
 }
 
 .button_nav {
@@ -38,7 +39,33 @@ nav {
     width: 130px;
     margin: 20px 20px 20px 20px;
 }
-
+container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    height: 100vh;
+}
+div {
+    background-color: black;
+    width: 60%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+.item-div {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    color: red;
+    font-family: ethnocentric;
+    text-align: center;
+}
 button::first-letter {
     color: white;
 }
