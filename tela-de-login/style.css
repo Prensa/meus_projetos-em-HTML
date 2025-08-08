@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-image:url("./img/img-fundo-teladelogin.png");
+}
+h1 {
+    font-size: medium;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    color: #fff;
+    display: block;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+

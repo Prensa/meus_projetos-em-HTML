@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teladelogin</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <div>
-        <form action="">
+    <div class="container">
+        
+        <div class="box">
             <h1>ENTRAR NA PLATAFORMA</h1>
-            <DIV>
-                <input placeholder="E-mail" type="email" required>
-            </DIV>
-            <DIV>
+            <br>
+            <form action="login.php" method="get">
+                <label for="email">E-mail</label>
+                <input placeholder="E-mail" type="email" id="" required>
+                <br>
+                <label for="senha">Senha</label>
                 <input placeholder="Senha" type="password" required>
-            </DIV>
-        </form>
+                <p> <input type="submit">Entrar</p>
+            </form>
+            <br>
+            <a href="#">Esqueci minha senha</a>
+            
+            
+        </div>
     </div>
-    
+
 </body>
+
 </html>

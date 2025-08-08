@@ -5,9 +5,8 @@
 }
 header {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    justify-content: space-evenly;
     height: 90px;
     position: fixed;
     background-color: black;
@@ -18,17 +17,20 @@ header {
 }
 #h_logo {
     width: 70px;
+    margin: 10px 0 10px 50px;
 }
 #name {
     font-family: "Waterfall", cursive;
     font-size: 30px;
     position: relative;
     color: gold;
+    margin: 28px 100px 26px 0;
 }
 #slogan {
     color: gold;
     font-size: 20px;
     position: relative;
+    margin: 34px 20px 33px 150px;
 }
 .link_header {
     font-size: 18px;
@@ -51,17 +53,25 @@ header {
     position: relative;
     font-family:'Times New Roman', Times, serif;
     cursor: pointer;
+    margin: 30px 50px 30px 250px;
 }
 #insta {
     height: 48px;
     align-self: flex-end;
+    margin: 21px 10px 21px 90px;
 }
 #zap {
     height: 60px;
     align-self: flex-end;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+section {
+    padding: 40px;
+    width: 120px;
 }
 main {
-    margin-top: 95PX;
+    margin: 95PX 0 0 0px;
 }
 footer {
     background-color: black;
